@@ -59,3 +59,14 @@ Thumbs.db
 
 # Optional eslint cache
 .eslintcache
+
+# SSH keys / secrets (NEVER commit these)
+github-actions-key
+github-actions-key.pub
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.key
+secrets/
