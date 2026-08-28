@@ -12,8 +12,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 border-b border-ink/10 bg-bone-50/80 backdrop-blur-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <NavLink to="/" className="group flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full border border-ink/15 bg-ink text-bone-50 transition group-hover:bg-ink-soft">
-            <span className="font-display text-lg font-semibold leading-none">U</span>
+          <div className="flex h-10 w-10 items-center justify-center transition group-hover:opacity-80">
+            <img src="/favicon.png" alt="Sport Car PH logo" className="h-full w-full object-contain" />
           </div>
           <div className="leading-tight">
             <p className="font-display text-lg font-semibold tracking-tight text-ink">
