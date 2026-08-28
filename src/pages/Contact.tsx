@@ -60,9 +60,9 @@ export default function Contact() {
 
             <dl className="mt-10 space-y-8">
               {[
-                { label: "General", value: "hello@ustraecar.ph" },
-                { label: "Sales advisor", value: "sales@ustraecar.ph" },
-                { label: "Press & partnerships", value: "press@ustraecar.ph" },
+                { label: "General", value: "hello@uscar.ph" },
+                { label: "Sales advisor", value: "sales@uscar.ph" },
+                { label: "Press & partnerships", value: "press@uscar.ph" },
                 { label: "Phone", value: "+63 917 555 0142" },
               ].map((row) => (
                 <div key={row.label} className="border-t border-ink/10 pt-4">
@@ -107,7 +107,7 @@ export default function Contact() {
                     value={form.name}
                     onChange={(e) => set("name", e.target.value)}
                     className="field-input"
-                    placeholder="Juan Dela Cruz"
+                    placeholder="Angelo Pogi"
                     autoComplete="name"
                   />
                 </div>
@@ -196,7 +196,7 @@ export default function Contact() {
 
           <div className="relative aspect-[16/7] w-full overflow-hidden border border-ink/10 bg-bone-100">
             <iframe
-              title="UstraeCar Studio · Ayala North Exchange, Makati"
+              title="UsCar Studio · Ayala North Exchange, Makati"
               src="https://www.google.com/maps?q=Ayala+North+Exchange,+Ayala+Avenue,+Makati,+Metro+Manila&z=16&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -215,7 +215,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[11px] font-semibold uppercase tracking-kicker text-ink-muted">
-                    UstraeCar Studio
+                    UsCar Studio
                   </p>
                   <p className="mt-1 font-display text-lg font-semibold leading-tight text-ink">
                     8F Ayala North Exchange
